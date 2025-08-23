@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: linear-gradient(135deg, #0d1b2a, #1b263b, #415a77);
+  color: #fff;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.slogan {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  color: #a9d6e5;
+}
+
+.menu-toggle {
+  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  background: #e0e1dd;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #0d1b2a;
+  transition: 0.3s;
+}
+
+.menu-toggle:hover {
+  background: #778da9;
+  color: #fff;
+}
+
+.button-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  font-weight: bold;
+  background: #e0e1dd;
+  color: #0d1b2a;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.5s ease;
+}
+
+.btn.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+footer {
+  margin-top: auto;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background: rgba(0,0,0,0.2);
+}
+
+.hidden {
+  display: none;
+}
