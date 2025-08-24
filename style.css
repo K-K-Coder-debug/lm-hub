@@ -29,6 +29,7 @@ h1 {
   font-size: 1.2rem;
   margin-top: 0.5rem;
   color: #a9d6e5;
+  text-align: center;
 }
 
 .menu-toggle {
@@ -108,4 +109,5 @@ footer {
       margin: 1rem 0;
       overflow-x: auto;
 }
+
 
