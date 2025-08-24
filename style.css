@@ -99,11 +99,6 @@ footer {
   margin: 0;
   padding: 20px;
 }
-p {
-  text-align: left;
-  margin: 0;
-  padding: 20px;
-}
 .code-box {
       background: #111;
       color: #0f0;
@@ -113,3 +108,4 @@ p {
       margin: 1rem 0;
       overflow-x: auto;
 }
+
