@@ -103,3 +103,13 @@ p {
   text-align: left;
   margin: 0;
   padding: 20px;
+}
+.code-box {
+      background: #111;
+      color: #0f0;
+      font-family: monospace;
+      padding: 1rem;
+      border-radius: 8px;
+      margin: 1rem 0;
+      overflow-x: auto;
+}
